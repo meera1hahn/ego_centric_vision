@@ -1,0 +1,67 @@
+['open', ['fridge'], [2658, 2708]] -1
+['take', ['turkey_container'], [2713, 2744]] 5
+['open', ['fridge'], [2745, 2789]] -1
+['take', ['bread_container'], [2792, 2847]] 4
+['close', ['fridge'], [2895, 2992]] -1
+['put', ['bread_container'], [3013, 3062]]  4
+['put', ['turkey_container'], [3061, 3131]] 5
+['take', ['plate', 'plate_container'], [3158, 3220]] -1
+['put', ['plate'], [3220, 3248]] -1
+['open', ['bread_container'], [3255, 3291]] 4
+['take', ['bread', 'bread_container'], [3290, 3358]] 4
+['put', ['bread', 'plate'], [3359, 3379]] 4
+['take', ['turkey_container'], [3381, 3406]] 5
+['open', ['turkey_container'], [3406, 3452]] 5
+['take', ['turkey', 'turkey_container'], [3453, 3581]] 5
+['put', ['turkey', 'bread'], [3581, 3733]] 5
+['take', ['turkey_container'], [3802, 3829]] 5
+['close', ['turkey_container'], [3829, 3915]] 5
+['put', ['turkey_container'], [3914, 3937]] 5
+['open', ['fridge'], [3993, 4046]] -1
+['take', ['cheese_container'], [4050, 4122]] 7
+['close', ['fridge'], [4294, 4321]] -1
+['take', ['cheese_container', 'cheese_container'], [4396, 4533]] 7
+['put', ['cheese_container'], [4549, 4570]] 7
+['open', ['cheese_container'], [4594, 4732]] 7
+['take', ['cheese', 'cheese_container'], [4731, 4762]] 7
+['put', ['cheese_container_wrapper'], [4761, 4786]] 7
+['put', ['cheese', 'turkey'], [4785, 4858]] 7
+['take', ['tomato', 'plate'], [4907, 4931]] 1
+['cut', ['tomato', 'knife'], [4931, 5247]] 1
+['put', ['tomato', 'plate'], [5246, 5265]] 1
+['take', ['tomato', 'plate'], [5265, 5285]] 1
+['put', ['knife', 'plate'], [5284, 5298]] -1
+['put', ['tomato', 'cheese'], [5298, 5333]] 1
+['take', ['tomato', 'plate'], [5332, 5376]] 1
+['put', ['tomato', 'cheese'], [5375, 5408]] 1
+['open', ['fridge'], [5450, 5528]] -1
+['take', ['lettuce_container'], [5536, 5646]] 2
+['close', ['fridge'], [5743, 5774]] -1
+['take', ['lettuce_bunch', 'lettuce_container'], [5848, 6005]] 2
+['put', ['lettuce_container'], [6004, 6018]] 2
+['take', ['lettuce', 'lettuce_bunch'], [6033, 6140]] 2
+['put', ['lettuce_bunch', 'plate'], [6140, 6159]] 2
+['turn on', ['tap'], [6232, 6266]] 2
+['wash', ['lettuce', 'tap', 'tap'], [6260, 6508]] 2
+['turn off', ['tap'], [6491, 6508]] 2
+['put', ['lettuce', 'plate'], [6615, 6648]] 3 
+['put', ['lettuce', 'plate'], [6690, 6705]] 3
+['take', ['knife', 'plate'], [6707, 6730]] 3
+['cut', ['lettuce', 'knife'], [6735, 6926]] 3
+['take', ['lettuce', 'plate'], [6925, 6947]] 3
+['put', ['lettuce', 'plate'], [6946, 6956]] 3
+['cut', ['lettuce', 'knife'], [6956, 7120]] 3
+['put', ['knife', 'plate'], [7119, 7144]] 3
+['transfer', ['lettuce', 'plate', 'tomato'], [7143, 7535]] 6
+['take', ['bread', 'bread_container'], [7559, 7653]] 6
+['put', ['bread', 'plate'], [7652, 7715]] 6
+['open', ['fridge'], [7746, 7791]] -1
+['take', ['mayo_container'], [7790, 7816]] 8
+['close', ['fridge'], [7816, 7837]] -1
+['open', ['mayo_container'], [7873, 7909]] 8
+['squeeze', ['mayo', 'mayo_container', 'lettuce'], [7932, 8042]] 8
+['close', ['mayo_container'], [8042, 8068]] 8
+['put', ['mayo_container'], [8068, 8097]] 8
+['take', ['bread', 'plate'], [8101, 8123]] -1
+['put', ['bread', 'mayo'], [8122, 8155]] 8
+['compress', ['sandwich'], [8155, 8223]] 9

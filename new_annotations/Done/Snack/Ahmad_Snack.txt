@@ -1,0 +1,125 @@
+['take', ['utensils', 'plate'], [1600, 1624]] 1
+['put', ['utensils', 'plate'], [1627, 1697]] 1
+['take', ['plate', 'plate_container'], [1659, 1691]] 1
+['take', ['bowl'], [1719, 1751]] 1
+['put', ['plate', 'plate_container'], [1736, 1780]] 1
+['take', ['peanut_butter_container'], [1925, 1952]] 1
+['open', ['peanut_butter_container'], [1957, 1996]] 1
+['put', ['peanut_butter_container'], [1984, 2004]] 1
+['put', ['peanut_butter_container_cap'], [2003, 2019]] 1
+['take', ['knife', 'plate'], [2007, 2036]] 1
+['transfer', ['peanut_butter', 'peanut_butter_container', 'bowl', 'knife'], [2039, 2245]] 1
+['put', ['knife', 'peanut_butter_container'], [2247, 2274]] 1
+['take', ['peanut_butter_container_cap'], [2256, 2277]] 1
+['put', ['peanut_butter_container_cap', 'peanut_butter_container'], [2279, 2304]] 1
+['take', ['peanut_butter_container_cap', 'peanut_butter_container'], [2311, 2321]] 1
+['put', ['peanut_butter_container'], [2320, 2331]] 1
+['put', ['peanut_butter_container_cap'], [2330, 2341]] 1
+['take', ['honey_container'], [2343, 2363]] 2
+['open', ['honey_container'], [2376, 2438]] 2
+['squeeze', ['honey', 'honey_container', 'bowl'], [2455, 2589]] 2
+['close', ['honey_container'], [2602, 2630]] 2
+['put', ['honey_container'], [2629, 2655]] 2
+['open', ['microwave'], [2680, 2709]] 3
+['put', ['peanut_butter', 'microwave'], [2704, 2749]] 3
+['close', ['microwave'], [2748, 2769]] 3
+['turn on', ['microwave'], [2762, 3288]] 3
+['turn on', ['microwave'], [3404, 3498]] 3
+['open', ['fridge'], [3519, 3566]] 5
+['take', ['bread_container'], [3593, 3653]] 5
+['close', ['fridge'], [3658, 3710]] 5
+['turn off', ['microwave'], [3769, 3827]] 3
+['open', ['microwave'], [3826, 3846]] 3
+['take', ['bowl', 'microwave'], [3836, 3867]] 3
+['close', ['microwave'], [3871, 3921]] 3
+['put', ['bowl'], [3895, 3931]] -1
+['open', ['bread_container'], [3922, 4182]] 5
+['take', ['bread', 'bread_container'], [4187, 4234]] 5
+['put', ['bread', 'plate'], [4234, 4254]] 5
+['take', ['plate', 'plate_container'], [4254, 4292]] 5
+['put', ['plate'], [4297, 4317]] 5
+['take', ['knife', 'peanut_butter_container'], [4320, 4358]] 5
+['put', ['knife', 'plate'], [4489, 4523]] 5
+['open', ['fridge'], [4547, 4643]] 4
+['take', ['jelly_container'], [4654, 4681]] 4
+['close', ['fridge'], [4687, 4738]] 4
+['open', ['jelly_container'], [4745, 4813]] 4
+['put', ['jelly_container_cap'], [4818, 4832]] 4
+['put', ['jelly_container'], [4831, 4840]] 4
+['take', ['spoon', 'plate'], [4839, 4868]] 4
+['put', ['spoon', 'jelly_container'], [4870, 4928]] 4
+['take', ['kettle', 'burner'], [4960, 4985]] 6
+['turn on', ['tap'], [5013, 5047]] 6
+['fill', ['kettle', 'tap', 'tap'], [5046, 5200]] 6
+['turn off', ['tap'], [5193, 5206]] 6
+['pour', ['tap', 'kettle', 'sink'], [5214, 5239]] 6
+['put', ['kettle', 'burner'], [5286, 5331]] 6
+['turn on', ['burner'], [5297, 5412]] 6,7
+['take', ['spoon', 'jelly_container'], [5452, 5462]] 4
+['take', ['jelly_container'], [5461, 5476]] 4
+['transfer', ['jelly', 'jelly_container', 'bowl', 'spoon'], [5481, 5764]] 4
+['put', ['spoon', 'jelly_container'], [5763, 5781]] 4
+['take', ['knife', 'plate'], [5785, 5805]] 5
+['mix', ['peanut_butter_mixture', 'knife'], [5816, 6042]] 5
+['spread', ['peanut_butter_mixture', 'bowl', 'bread', 'knife'], [6042, 7011]] 5
+['take', ['bread', 'plate'], [6052, 6077]] 5
+['put', ['knife', 'bowl'], [7011, 7061]] 5
+['take', ['bread', 'plate'], [7061, 7080]] 5
+['put', ['peanut_butter_bread', 'plate'], [7079, 7100]] 5
+['put', ['bread', 'peanut_butter_bread'], [7099, 7117]] 5
+['compress', ['sandwich'], [7116, 7135]] 5
+['take', ['spoon', 'jelly_container'], [7133, 7182]] 3
+['put', ['spoon', 'bowl'], [7185, 7208]] -1
+['take', ['jelly_container_cap'], [7211, 7225]] 3
+['close', ['jelly_container'], [7227, 7272]] 3
+['take', ['peanut_butter_container_cap'], [7271, 7293]] 1
+['close', ['peanut_butter_container'], [7292, 7338]] 1
+['take', ['bowl'], [7658, 7676]] 11
+['put', ['bowl'], [7729, 7750]] 11
+['open', ['fridge'], [7785, 7843]] 12
+['take', ['milk_container'], [7851, 7879]] 12
+['close', ['fridge'], [7880, 7937]] 12
+['put', ['milk_container'], [7954, 7964]] 12
+['take', ['cereal_container'], [7963, 7998]] 11
+['pour', ['cereal', 'cereal_container', 'bowl'], [8039, 8278]] 11
+['put', ['cereal_container'], [8301, 8330]] 11
+['open', ['milk_container'], [8352, 8388]] 12
+['pour', ['milk', 'milk_container', 'bowl'], [8387, 8518]] 12
+['close', ['milk_container'], [8526, 8568]] 12
+['open', ['milk_container'], [8587, 8615]] 12
+['pour', ['milk', 'milk_container', 'bowl'], [8615, 8651]] 12
+['close', ['milk_container'], [8654, 8703]] 12
+['put', ['milk_container'], [8702, 8719]] 12
+['take', ['honey_container'], [8718, 8742]] 13
+['open', ['honey_container'], [8771, 8789]] 13
+['squeeze', ['honey', 'honey_container', 'bowl'], [8808, 8952]] 13
+['close', ['honey_container'], [8966, 8995]] 13
+['put', ['honey_container'], [8995, 9026]] 13
+['take', ['milk_container'], [9028, 9052]] 12
+['open', ['fridge'], [9060, 9098]] 12
+['put', ['milk_container'], [9097, 9265]] 12
+['close', ['fridge'], [9270, 9303]] 12
+['take', ['cup'], [9379, 9405]] 8
+['put', ['cup'], [9431, 9449]] 8
+['take', ['tea_bag', 'tea_bag_container'], [9449, 9491]] 8
+['open', ['tea_bag_container'], [9497, 9528]] 8
+['take', ['tea_bag', 'tea_bag_container'], [9544, 9636]] 8
+['put', ['tea_bag_container'], [9635, 9647]] 8
+['put', ['tea_bag', 'cup'], [9647, 9672]] 8
+['take', ['cup'], [9671, 9688]] 8
+['put', ['cup'], [9741, 9765]] 8
+['turn off', ['burner'], [9778, 9825]] 9
+['take', ['kettle', 'burner'], [9824, 9845]] 9
+['pour', ['tap', 'kettle', 'cup'], [9853, 10108]] 9
+['put', ['kettle', 'burner'], [10109, 10141]] 9
+['take', ['cup'], [10136, 10163]] 9
+['put', ['cup'], [10201, 10237]] 9
+['close', ['fridge'], [10237, 10295]] -1
+['close', ['bread_container'], [10320, 10508]] 5
+['take', ['bread'], [10506, 10523]] 5
+['open', ['fridge'], [10539, 10571]] 5
+['put', ['bread'], [10570, 10607]] 5
+['close', ['fridge'], [10612, 10642]] 5
+['take', ['tea_bag', 'cup'], [10659, 10743]] -1
+['take', ['tea_bag_container'], [11039, 11093]] -1
+['put', ['tea_bag_container', 'trash'], [11132, 11169]] -1

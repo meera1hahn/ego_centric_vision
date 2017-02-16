@@ -1,0 +1,139 @@
+['turn on', ['burner'], [642, 828]] 5
+['open', ['fridge'], [934, 1020]] -1
+['take', ['egg_container'], [1044, 1095]] 1
+['put', ['egg_container', 'fridge_shelf'], [1094, 1123]] 1
+['open', ['egg_container'], [1122, 1224]] 1
+['take', ['egg', 'egg_container'], [1221, 1241]] 1
+['close', ['egg_container'], [1238, 1326]] 1
+['put', ['egg_container'], [1328, 1392]] 1
+['take', ['milk_container'], [1358, 1401]] 2
+['close', ['egg_container'], [1399, 1458]] 1
+['close', ['fridge'], [1494, 1621]] -1
+['put', ['bowl'], [1660, 1687]] 1
+['put', ['milk_container'], [1686, 1716]] 2
+['put', ['egg'], [1730, 1778]] 1
+['take', ['salt_container'], [1788, 1812]] 2
+['put', ['container'], [1816, 1839]] -1
+['take', ['spoon'], [1905, 1933]] -1
+['put', ['spoon'], [1995, 2020]] -1
+['take', ['egg'], [2021, 2044]] 1
+['crack', ['egg', 'bowl'], [2043, 2190]] 1
+['take', ['plate', 'plate_container'], [2285, 2326]] -1
+['put', ['plate'], [2326, 2337]] -1
+['put', ['egg_shells', 'plate'], [2336, 2365]] 1
+['open', ['milk_container'], [2377, 2438]] 2
+['take', ['bowl'], [2460, 2482]] 2
+['pour', ['milk', 'milk_container', 'bowl'], [2486, 2552]] 2
+['put', ['bowl'], [2563, 2578]] 2
+['put', ['milk_container'], [2577, 2598]] 2
+['close', ['milk_container'], [2607, 2657]] 2
+['take', ['milk_container'], [2658, 2672]] 2
+['put', ['milk_container'], [2677, 2699]] 2
+['open', ['salt_container'], [2686, 2737]] 2
+['take', ['salt_container'], [2742, 2754]] 2
+['pour', ['salt', 'salt_container', 'bowl'], [2756, 2791]] 2
+['put', ['salt_container'], [2797, 2807]] 2
+['close', ['salt_container'], [2807, 2830]] 2
+['take', ['spoon'], [2829, 2838]] 3
+['mix', ['egg_mixture', 'bowl', 'spoon'], [2840, 3778]] 3
+['take', ['oil_container'], [4104, 4155]] 4
+['open', ['cabinet'], [4267, 4364]] -1
+['close', ['cabinet'], [4378, 4444]] -1
+['open', ['cabinet'], [4479, 4554]] -1
+['close', ['cabinet'], [4615, 4687]] -1
+['open', ['oil_container'], [4755, 4800]] 4
+['pour', ['oil', 'oil_container', 'skillet'], [4824, 4928]] 4
+['close', ['oil_container'], [4938, 4965]] 4
+['put', ['oil_container'], [4998, 5023]] 4
+['take', ['egg_mixture'], [5038, 5078]] 3
+['mix', ['egg_mixture', 'bowl', 'spoon'], [5039, 5447]] 3
+['pour', ['egg_mixture', 'bowl', 'skillet'], [5454, 5502]] 6
+['transfer', ['egg_mixture', 'bowl', 'skillet', 'spoon'], [5501, 5654]] 6
+['put', ['bowl'], [5685, 5719]] 6
+['take', ['milk_container'], [5899, 5923]] 2
+['open', ['fridge'], [5947, 6010]] -1
+['put', ['milk_container'], [6001, 6035]] 2
+['close', ['fridge'], [6037, 6090]] -1
+['take', ['plastic_spatula'], [6784, 6814]] 
+['mix', ['egg_mixture', 'skillet', 'plastic_spatula'], [6829, 7627]] 7
+['move around', ['eggs', 'skillet', 'plastic_spatula'], [7626, 8161]] 7
+['put', ['plastic_spatula'], [8166, 8205]] 7
+['open', ['cabinet'], [8313, 8381]] 9
+['take', ['cup', 'cabinet'], [8471, 8520]] 9
+['close', ['cabinet'], [8520, 8622]] 9
+['put', ['cup'], [8696, 8726]] 9
+['open', ['fridge'], [8731, 8793]] 9
+['take', ['orange_juice_container'], [8802, 8835]] 9
+['close', ['fridge'], [8837, 8908]] 9
+['open', ['orange_juice_container'], [8990, 9011]] 9
+['pour', ['orange_juice', 'orange_juice_container', 'cup'], [9016, 9128]] 9
+['close', ['orange_juice_container'], [9135, 9307]] 9
+['open', ['fridge'], [9318, 9345]] 9
+['put', ['orange_juice_container'], [9351, 9387]] 9
+['close', ['fridge'], [9392, 9419]] 9
+['take', ['egg_shells', 'plate'], [9445, 9465]] 1
+['put', ['egg_shells', 'bowl'], [9467, 9489]] 1
+['take', ['plate'], [9570, 9606]] -1
+['put', ['plate'], [9632, 9672]] -1
+['take', ['plastic_spatula'], [9709, 9721]] 7
+['move around', ['eggs', 'skillet', 'plastic_spatula'], [9723, 9778]] 7
+['transfer', ['eggs', 'skillet', 'plate', 'plastic_spatula'], [9786, 10074]] 8
+['transfer', ['eggs', 'skillet', 'plate', 'plastic_spatula'], [10298, 10403]] 8
+['put', ['plastic_spatula', 'plate'], [10443, 10469]] 8
+['take', ['oil_container'], [10617, 10643]] 10
+['open', ['oil_container'], [10703, 10720]] 10
+['pour', ['oil', 'oil_container', 'skillet'], [10728, 10789]] 10
+['close', ['oil_container'], [10802, 10821]] 10
+['put', ['oil_container'], [10861, 10892]] 10
+['open', ['freezer'], [10927, 11010]] -1
+['take', ['bacon_container'], [11037, 11077]] 12
+['close', ['freezer'], [11081, 11121]] -1
+['take', ['knife'], [11263, 11292]] -1
+['open', ['bacon_container'], [11495, 11523]] 12
+['divide', ['bacon', 'knife'], [11529, 11664]] 12
+['take', ['plate'], [11733, 11758]] 12
+['put', ['plate'], [11768, 11790]] 12
+['transfer', ['bacon', 'bacon_container', 'plate', 'knife'], [11805, 11927]] 12
+['put', ['bacon_container'], [11946, 11965]] 12
+['cut', ['bacon', 'knife'], [11979, 12171]] 12
+['transfer', ['bacon', 'plate', 'knife'], [12175, 12231]] 12
+['put', ['bacon', 'skillet'], [12251, 12269]] 12
+['take', ['bacon', 'plate'], [12310, 12348]] 12
+['put', ['bacon', 'skillet'], [12352, 12380]] 12
+['open', ['fridge'], [12630, 12692]] -1
+['take', ['bagel_container'], [12725, 12762]] 13
+['close', ['fridge'], [12820, 12872]] -1
+['take', ['bacon_container'], [12930, 12959]] 12
+['open', ['freezer'], [12980, 13014]] -1
+['put', ['bacon_container'], [13014, 13038]] 12
+['take', ['cheese_container'], [13075, 13103]] 13
+['close', ['freezer'], [13128, 13157]] -1
+['take', ['plastic_spatula'], [13215, 13233]] 12
+['flip', ['bacon', 'skillet', 'plastic_spatula'], [13236, 13260]] 12
+['move around', ['bacon', 'skillet', 'plastic_spatula'], [13259, 13427]] 12
+['put', ['plastic_spatula'], [13442, 13472]] 12
+['take', ['plastic_spatula', 'plate'], [13477, 13494]] 12
+['flip', ['bacon', 'skillet', 'plastic_spatula'], [13506, 13548]] 12
+['move around', ['bacon', 'skillet', 'plastic_spatula'], [13547, 13622]] 12
+['put', ['plastic_spatula', 'plate'], [13642, 13671]] 12
+['take', ['sharp_knife', 'knife_container'], [13799, 13826]] -1
+['open', ['bagel_container'], [13892, 13990]] 13
+['take', ['bagel', 'bagel_container'], [13991, 14079]] 13
+['divide', ['bagel', 'knife'], [14106, 14470]] 13
+['put', ['bagel', 'plate'], [14470, 14528]] 13
+['take', ['cheese_container'], [14543, 14564]] 13
+['open', ['cheese_container'], [14582, 14642]] 13
+['spread', ['cheese', 'cheese_container', 'bagel', 'sharp_knife'], [14652, 15173]] 13
+['put', ['bagel', 'plate'], [15178, 15195]] 13
+['spread', ['cheese', 'cheese_container', 'bagel', 'sharp_knife'], [15198, 15732]] 13
+['compress', ['sandwich'], [15733, 15810]] 14
+['take', ['salt_container'], [15854, 15885]] 2
+['put', ['salt_container'], [15884, 15936]] 2
+['take', ['cheese_container_lid'], [15942, 15962]] 13
+['close', ['cheese_container'], [15961, 15998]] 13
+['open', ['freezer'], [16024, 16058]] -1
+['put', ['cheese_container'], [16057, 16079]] 13
+['close', ['freezer'], [16079, 16102]] -1
+['take', ['plastic_spatula', 'plate'], [16161, 16189]] -1
+['flip', ['bacon', 'skillet', 'plastic_spatula'], [16191, 16292]] 12
+['put', ['plastic_spatula', 'plate'], [16309, 16334]] -1

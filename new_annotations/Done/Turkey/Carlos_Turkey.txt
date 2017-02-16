@@ -1,0 +1,132 @@
+['open', ['fridge'], [1353, 1399]] -1
+['take', ['bread_container'], [1424, 1466]] 4
+['put', ['bread_container'], [1496, 1537]] 4
+['take', ['utensils'], [1538, 1559]] 4
+['take', ['plate_container'], [1558, 1580]] -1
+['put', ['plate_container'], [1593, 1606]] -1
+['put', ['utensils'], [1605, 1646]] -1
+['open', ['fridge'], [1732, 1761]] -1
+['take', ['tomato_container'], [1760, 1801]] 1
+['take', ['lettuce_container'], [1807, 1892]] 2
+['close', ['fridge'], [1892, 2017]] -1
+['put', ['lettuce_container'], [2042, 2067]] 2
+['put', ['tomato_container'], [2066, 2080]] 1
+['open', ['lettuce_container'], [2207, 2277]] 2
+['open', ['tomato_container'], [2312, 2394]] 1
+['take', ['tomato', 'tomato_container'], [2394, 2522]] 1
+['peel', ['tomato_sticker'], [2546, 2653]] 1
+['put', ['tomato', 'plate'], [2657, 2684]] 1
+['take', ['knife', 'plate'], [2685, 2704]] 1
+['cut', ['tomato', 'knife'], [2737, 2919]] 1
+['take', ['tomato', 'plate'], [2922, 2931]] 1
+['put', ['tomato', 'tomato_container'], [2939, 2978]] 1
+['put', ['knife'], [3003, 3036]] -1
+['take', ['lettuce', 'lettuce_container'], [3043, 3076]] 2
+['put', ['lettuce', 'plate'], [3076, 3096]] 2
+['take', ['knife'], [3100, 3122]] 3
+['cut', ['lettuce', 'knife'], [3194, 3253]] 3
+['put', ['knife'], [3437, 3477]] 3
+['close', ['lettuce_container'], [3501, 3673]] 2
+['take', ['tomato_container'], [3680, 3694]] 1
+['take', ['lettuce_container'], [3693, 3707]] 2
+['open', ['fridge'], [3724, 3768]] -1
+['put', ['lettuce_container'], [3796, 3859]] 2
+['open', ['fridge'], [3865, 3890]] -1
+['close', ['fridge'], [3889, 3922]] -1
+['put', ['tomato_container'], [3951, 4021]] 1
+['close', ['fridge'], [4023, 4076]] -1
+['open', ['freezer'], [4087, 4138]] -1
+['close', ['freezer'], [4137, 4173]] -1
+['open', ['freezer'], [4172, 4211]] -1
+['take', ['turkey_container'], [4211, 4250]] 5
+['take', ['cheese_container', 'cheese_container'], [4254, 4299]] 7
+['close', ['freezer'], [4299, 4340]] -1
+['put', ['turkey_container'], [4347, 4386]] 5
+['put', ['cheese_container'], [4387, 4403]] 7
+['open', ['bread_container'], [4410, 4583]] 4
+['take', ['bread', 'bread_container'], [4584, 4647]] 4
+['put', ['bread', 'plate'], [4648, 4716]] 4
+['close', ['bread_container'], [4719, 5003]] 4
+['take', ['bread'], [5009, 5026]] 4
+['open', ['fridge'], [5042, 5086]] -1
+['put', ['bread'], [5077, 5165]] 4
+['close', ['fridge'], [5166, 5211]] -1
+['open', ['fridge'], [5224, 5271]] -1
+['close', ['fridge'], [5309, 5319]] -1
+['open', ['fridge'], [5319, 5348]] -1
+['take', ['mayo_container'], [5370, 5394]] 8
+['close', ['fridge'], [5394, 5426]] -1
+['put', ['mayo_container'], [5442, 5461]] 8
+['read', ['recipe'], [5512, 5561]] -1
+['open', ['fridge'], [5583, 5624]] -1
+['take', ['ketchup_container'], [5728, 5755]] 8
+['close', ['fridge'], [5758, 5789]] -1
+['put', ['ketchup_container'], [5795, 5852]] 8
+['open', ['turkey_container'], [5879, 5927]] 5
+['take', ['turkey', 'turkey_container'], [5929, 6048]] 5
+['put', ['turkey', 'bread'], [6060, 6126]] 5
+['transfer', ['lettuce', 'plate', 'bread'], [6179, 6446]] 6
+['transfer', ['tomato', 'plate', 'bread'], [6469, 6566]] 6
+['take', ['lettuce', 'plate'], [6574, 6586]] 2
+['put', ['lettuce', 'bread'], [6589, 6618]] 2
+['take', ['tomato', 'plate'], [6619, 6641]] 6
+['put', ['tomato', 'bread'], [6642, 6688]] 6
+['open', ['mayo_container', 'counter'], [6723, 6747]] 8
+['take', ['mayo_container'], [6746, 6754]] 8
+['take', ['bread', 'plate'], [6767, 6785]] -1
+['put', ['bread', 'plate'], [6815, 6836]] -1
+['take', ['bread', 'plate'], [6879, 6900]] -1
+['squeeze', ['mayo', 'mayo_container', 'bread'], [6908, 7033]] 8
+['put', ['mayo_container'], [7047, 7065]] 8
+['close', ['mayo_container'], [7065, 7086]] 8
+['put', ['bread', 'plate'], [7085, 7116]] -1
+['take', ['knife'], [7141, 7172]] -1
+['take', ['bread', 'plate'], [7175, 7197]] -1
+['spread', ['mayo', 'knife'], [7206, 7447]] 8
+['put', ['bread', 'plate'], [7448, 7471]] -1
+['put', ['knife', 'plate'], [7470, 7490]] -1
+['open', ['ketchup_container'], [7498, 7521]] 8
+['take', ['ketchup_container'], [7522, 7533]] 8
+['close', ['ketchup_container'], [7563, 7578]] 8
+['open', ['ketchup_container'], [7621, 7645]] 8
+['squeeze', ['ketchup', 'ketchup_container', 'bread'], [7647, 7806]] 8
+['close', ['ketchup_container'], [7809, 7831]] 8
+['put', ['ketchup_container'], [7832, 7860]] 8
+['take', ['cheese_container'], [7860, 7884]] 7
+['put', ['cheese_container'], [7903, 7930]] 7
+['open', ['cheese_container'], [7933, 8005]] 7
+['take', ['cheese', 'cheese_container'], [8005, 8025]] 7
+['put', ['cheese_container_wrapper'], [8024, 8043]] 7
+['put', ['cheese', 'bread'], [8047, 8078]] 7
+['take', ['cheese_container'], [8079, 8096]] 7
+['open', ['cheese_container'], [8099, 8214]] 7
+['take', ['cheese', 'cheese_container'], [8224, 8247]] 7
+['put', ['cheese', 'bread'], [8248, 8297]] 7
+['take', ['tomato', 'plate'], [8302, 8318]] 6
+['put', ['tomato', 'bread'], [8319, 8343]] 6
+['take', ['bread', 'plate'], [8345, 8370]] 9
+['put', ['bread', 'bread'], [8411, 8426]] 9
+['compress', ['sandwich'], [8456, 8500]] 9
+['take', ['knife', 'plate'], [8510, 8529]] -1
+['take', ['cheese_container_wrapper'], [8528, 8546]] 7
+['put', ['knife', 'paper_towel'], [8545, 8574]] -1
+['take', ['turkey_container'], [8576, 8591]] 5
+['close', ['turkey_container'], [8592, 8659]] 5
+['open', ['fridge'], [8714, 8750]] -1
+['close', ['fridge'], [8750, 8767]] -1
+['put', ['turkey_container'], [8754, 8779]] 5
+['take', ['mayo_container'], [8782, 8803]] 8
+['take', ['ketchup_container'], [8804, 8830]] 8
+['open', ['fridge'], [8841, 8888]] -1
+['put', ['ketchup_container'], [8890, 8979]] 8
+['close', ['fridge'], [9030, 9074]] -1
+['open', ['fridge'], [9079, 9111]] -1
+['put', ['mayo_container'], [9111, 9148]] 8
+['close', ['fridge'], [9148, 9174]] -1
+['take', ['turkey_container'], [9179, 9208]] 5
+['open', ['freezer'], [9217, 9251]] -1
+['put', ['turky_container'], [9239, 9273]] 5
+['close', ['freezer'], [9271, 9299]] -1
+['take', ['plate'], [9323, 9351]] -1
+['put', ['plate'], [9452, 9482]] -1
+['put', ['cheese_container_wrappers', 'trash'], [9581, 9621]] 7
