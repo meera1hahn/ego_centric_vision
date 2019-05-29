@@ -1,0 +1,15 @@
+/output
+/data
+build/
+*.png
+*.txt
+*.caffemodel
+*.pyc
+*.so
+*~
+.DS_Store
+.DS_Store?
+*.pkl
+*.mat
+*.jpg
+*.mp4
