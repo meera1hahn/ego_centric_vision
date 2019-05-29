@@ -1,6 +1,16 @@
 # ego_centric_vision
-tools for analyzing and detecting actions in ego centric videos
+tools and data for analyzing and detecting actions in ego centric videos
 
+
+Annotations for 'Learning to Localize and Align Fine-Grained Actions to Sparse Instructions'
+---------------
+* The annotations that were used in the 'Learning to Localize and Align Fine-Grained Actions to Sparse Instructions' paper are contained in the data folder
+* The files contain EDGTEA, GTEA_Gaze and BEOID. The folders contain the cleaned step by step recipes and the action to recipe step annotations. 
+
+
+Action Datasets
+---------------
+the file action_datasets.md contains a list of the most common action datasets both for First Person Vision (FPV) and 3rd person vision
 
 
 Hand Masks
