@@ -8,6 +8,7 @@ First Person Vision Datasets
     * 20 people filmed in their own apartment and each of these are ~30 minutes long
     * annotated every second annotated with action labeled and object bounding boxes, and which objects are active 
 * GTEA GAZE +
+    * http://www.cbi.gatech.edu/fpv/
     * 37 total videos, avg length ~10 min, 24 fps
     * 6 subjects
     * 7 different cooking recipes that are being followed in the videos
