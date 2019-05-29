@@ -1,0 +1,102 @@
+['open', ['fridge'], [1067, 1099]] -1
+['take', ['pizza_crust_container'], [1116, 1279]] 2
+['close', ['fridge'], [1281, 1303]] -1
+['put', ['pizza_crust_container'], [1318, 1348]] 2
+['take', ['pizza_crust', 'pizza_crust_container'], [1350, 1384]] -1
+['put', ['pizza_crust'], [1383, 1407]] 2
+['open', ['freezer'], [1606, 1646]] -1
+['take', ['salad_dressing'], [1664, 1713]] 11
+['close', ['freezer'], [1716, 1745]] -1
+['put', ['salad_dressing'], [1762, 1777]] 11
+['open', ['salad_dressing'], [1780, 1866]] 11
+['distribute', ['feta', 'pizza_crust'], [1912, 2410]] 11
+['take', ['salad_dressing'], [2405, 2450]] 11
+['open', ['freezer'], [2470, 2528]] -1
+['put', ['salad_dressing'], [2509, 2532]] 11
+['close', ['freezer'], [2534, 2559]] -1
+['open', ['freezer'], [2633, 2671]] -1
+['take', ['hotdog'], [2667, 2716]] 3
+['close', ['freezer'], [2702, 2741]] -1
+['put', ['hotdog'], [2781, 2830]] 3
+['take', ['plate', 'plate'], [2875, 2927]] -1
+['put', ['plate'], [2916, 2967]] -1
+['open', ['hotdog'], [2978, 3082]] 3
+['take', ['hotdog', 'hotdog'], [3083, 3111]] 3
+['put', ['hotdog', 'plate'], [3111, 3127]] 3
+['take', ['knife'], [3204, 3234]] -1
+['read', ['recipe'], [3275, 3376]] -1
+['cut', ['hotdog', 'knife'], [3675, 4578]] 3
+['distribute', ['hotdog', 'pizza_crust'], [4633, 4927]] 10
+['take', ['hotdog'], [4956, 4983]] 10
+['open', ['freezer'], [5002, 5049]] -1
+['put', ['hotdog'], [5035, 5057]] 3
+['close', ['freezer'], [5069, 5091]] -1
+['open', ['fridge'], [5096, 5120]] -1
+['take', ['bell_pepper'], [5125, 5156]] 4
+['close', ['fridge'], [5153, 5184]] -1
+['put', ['bell_pepper', 'plate'], [5192, 5246]] 4
+['cut', ['bell_pepper', 'knife'], [5242, 6119]] 4
+['distribute', ['bell_pepper', 'pizza_crust'], [6120, 6419]] 10
+['take', ['bell_pepper'], [6433, 6470]] 4
+['open', ['fridge'], [6522, 6552]] -1
+['put', ['bell_pepper'], [6541, 6563]] 4
+['close', ['fridge'], [6571, 6590]] -1
+['read', ['recipe'], [6641, 6729]] -1
+['turn on', ['skillet'], [6831, 6871]] 7
+['take', ['oil'], [7005, 7046]] 6 
+['open', ['oil'], [7088, 7184]] 6
+['pour', ['oil', 'oil', 'skillet'], [7211, 7284]] 6
+['close', ['oil'], [7283, 7384]] 6
+['put', ['oil'], [7387, 7411]] 6
+['open', ['fridge'], [7440, 7478]] -1
+['take', ['mushroom_container'], [7488, 7530]] 5
+['close', ['fridge'], [7522, 7556]] -1
+['take', ['mushroom', 'mushroom_container'], [7590, 7619]] 5
+['put', ['mushroom', 'plate'], [7618, 7642]] 5
+['cut', ['mushroom', 'knife'], [7657, 8049]] 5
+['take', ['mushroom', 'mushroom_container'], [8052, 8115]] 5
+['cut', ['mushroom', 'knife'], [8116, 8627]] 5
+['take', ['plate'], [8625, 8652]] -1
+['put', ['plate'], [8650, 8674]] -1
+['distribute', ['oil', 'skillet'], [8703, 8742]] 7
+['take', ['mushroom', 'plate'], [8753, 8774]] 8
+['put', ['mushroom', 'skillet'], [8789, 8809]] 8
+['take', ['mushroom', 'plate'], [8820, 8883]] 8
+['put', ['mushroom', 'skillet'], [8888, 8920]] 8
+['take', ['mushroom', 'plate'], [8928, 8948]] 8
+['put', ['mushroom', 'skillet'], [8957, 8984]] 8
+['take', ['spatula'], [9070, 9096]] -1
+['move around', ['mushroom', 'skillet', 'spatula'], [9111, 9973]] 8
+['move around', ['mushroom', 'skillet', 'spatula'], [10039, 10748]] 8
+['take', ['skillet', 'skillet'], [10749, 10780]] -1
+['pour', ['mushroom', 'skillet', 'pizza_crust', 'spatula'], [10811, 11067]] 8
+['put', ['skillet', 'skillet'], [11129, 11147]] -1
+['put', ['spatula', 'skillet'], [11147, 11175]] -1
+['take', ['plate', 'knife'], [11202, 11226]] -1
+['put', ['knife'], [11225, 11243]] -1
+['put', ['plate'], [11243, 11265]] -1
+['take', ['mushroom_container'], [11285, 11310]] 8
+['open', ['fridge'], [11339, 11381]] -1
+['put', ['mushroom_container'], [11375, 11402]] 8
+['close', ['fridge'], [11403, 11426]] -1
+['take', ['pizza_crust'], [11501, 11538]] 12
+['put', ['pizza_crust', 'plate'], [11538, 11560]] 12
+['read', ['recipe'], [11625, 11712]] -1
+['open', ['freezer'], [11954, 12001]] -1
+['close', ['freezer'], [12001, 12029]] -1
+['open', ['freezer'], [12029, 12062]] -1
+['close', ['freezer'], [12061, 12089]] -1
+['open', ['fridge'], [12089, 12132]] -1
+['take', ['ketchup_bottle'], [12161, 12189]] 9
+['open', ['ketchup_bottle'], [12252, 12310]] 9
+['squeeze', ['ketchup_bottle', 'ketchup_bottle', 'pizza_crust'], [12312, 12566]] 9
+['close', ['ketchup_bottle'], [12566, 12585]] 9 
+['open', ['fridge'], [12605, 12647]] -1
+['put', ['ketchup_bottle'], [12639, 12668]] 9
+['close', ['fridge'], [12667, 12683]] -1
+['read', ['recipe'], [12726, 12792]] -1
+['turn on', ['oven'], [13106, 13134]] 12
+['open', ['oven'], [13993, 14041]] 12
+['take', ['pizza_crust'], [14079, 14129]] 12
+['put', ['pizza_crust', 'counter'], [14135, 14239]] 13
+['close', ['oven'], [14248, 14300]] 13

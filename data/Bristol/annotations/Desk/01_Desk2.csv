@@ -1,0 +1,8 @@
+1,144,205,pick up.v.1,wire,
+1,214,323,plug.v.5,wire,socket,
+2,357,438,untangle.v.1,wire,
+2,489,607,insert.v.1,wire,screwdriver,
+3,736,785,switch on.v.1,socket,
+2,826,876,check.v.1,screwdriver,
+4,957,998,pick up.v.1,tape,
+4,1073,1125,place.v.1,tape,box,

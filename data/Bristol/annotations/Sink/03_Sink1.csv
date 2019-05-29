@@ -1,0 +1,15 @@
+1,167,199,pick up.v.1,cup,tap
+1,274,295,turn.v.4,tap
+1,295,401,rinse.v.1,cup,tap
+1,401,534,fill.v.1,cup,tap
+1,491,534,turn.v.4,tap,
+2,691,745,put.v.1,cup,
+2,824,877,press.v.1,button,
+3,988,1041,take.v.4,cup,
+3,1174,1226,put.v.1,cup,
+4,1346,1385,pick up.v.1,jar,
+4,1434,1467,put.v.1,jar,
+4,1467,1492,open.v.1,jar,
+4,1521,1563,take.v.4,spoon,
+4,1622,1644,scoop.v.1,spoon,jar,
+5,1709,1798,stir.v.8,spoon,cup,

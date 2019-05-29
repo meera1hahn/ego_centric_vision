@@ -1,0 +1,3 @@
+1 Open printer's tray and check paper and close printer's tray 
+2 Press the buttons on the control panel of the printer
+0 Unknown

@@ -1,0 +1,124 @@
+['take', ['bowl'], [717, 750]] 1
+['take', ['spoon', 'plate'], [799, 818]] 1
+['put', ['spoon', 'bowl'], [955, 968]] 1
+['put', ['bowl'], [969, 983]] 1
+['take', ['peanut_butter'], [979, 1001]] 1
+['open', ['peanut_butter'], [1005, 1018]] 1
+['put', ['peanut_butter'], [1022, 1032]] 1
+['take', ['spoon', 'bowl'], [1031, 1056]] 1
+['take', ['peanut_butter', 'peanut_butter'], [1058, 1103]] 1
+['put', ['spoon', 'bowl'], [1124, 1177]] 1
+['take', ['peanut_butter'], [1176, 1188]] 1
+['close', ['peanut_butter'], [1189, 1242]] 1
+['put', ['peanut_butter'], [1247, 1271]] 1
+['take', ['honey'], [1255, 1274]] 2
+['open', ['honey'], [1274, 1291]] 2
+['squeeze', ['honey', 'honey', 'peanut_butter'], [1300, 1427]] 2
+['close', ['honey'], [1427, 1454]] 2
+['put', ['honey'], [1456, 1474]] 2
+['put', ['peanut_butter', 'bowl'], [1483, 1594]] 2
+['mix', ['peanut_butter', 'bowl', 'spoon'], [1593, 2135]] 2
+['open', ['microwave'], [2168, 2196]] 3
+['take', ['spoon', 'bowl'], [2220, 2244]] -1
+['put', ['bowl', 'microwave'], [2250, 2292]] 3
+['close', ['microwave'], [2293, 2331]] 3
+['turn on', ['microwave'], [2331, 2381]] 3
+['open', ['fridge'], [2670, 2708]] 4
+['take', ['jam'], [2710, 2733]] 4
+['close', ['fridge'], [2766, 2808]] 4
+['open', ['microwave'], [2847, 2910]] 3
+['take', ['bowl', 'microwave'], [2915, 2950]] 3
+['put', ['bowl'], [2969, 3002]] 3
+['close', ['microwave'], [3012, 3051]] 3
+['open', ['jam'], [3068, 3096]] 4
+['put', ['jam'], [3097, 3112]] 4
+['transfer', ['jam', 'jam', 'bowl'], [3320, 3487]] 4
+['put', ['jam'], [3504, 3521]] 4
+['take', ['jam'], [3523, 3540]] 4
+['close', ['jam'], [3542, 3588]] 4
+['put', ['spoon', 'bowl'], [3585, 3607]] 4
+['take', ['jam'], [3598, 3610]] 4
+['open', ['fridge'], [3646, 3678]] 4
+['put', ['jam'], [3679, 3710]] 4
+['close', ['fridge'], [3709, 3734]] 4
+['take', ['spoon', 'bowl'], [3778, 3791]] -1
+['mix', ['peanut_butter', 'bowl', 'spoon'], [3791, 4150]] -1
+['put', ['spoon', 'bowl'], [4149, 4158]] -1
+['put', ['bowl'], [4158, 4174]] -1
+['take', ['plate'], [4211, 4255]] -1
+['put', ['plate'], [4292, 4320]] -1
+['open', ['fridge'], [4377, 4454]] 5
+['take', ['bread'], [4473, 4506]] 5
+['close', ['fridge'], [4505, 4543]] 5
+['open', ['bread'], [4566, 4754]] 5
+['put', ['bread'], [4632, 4664]] 5
+['take', ['bread', 'bread'], [4781, 4829]] 5
+['put', ['bread', 'plate'], [4837, 4891]] 5
+['take', ['spoon', 'bowl'], [4890, 4903]] 5
+['mix', ['peanut_butter', 'bowl', 'spoon'], [4904, 4919]] 5
+['spread', ['peanut_butter', 'bowl', 'bread', 'spoon'], [4918, 5391]] 5
+['put', ['spoon', 'bowl'], [5391, 5410]] 5
+['take', ['bread', 'bread'], [5421, 5464]] 5
+['compress', ['sandwich'], [5475, 5540]] 5
+['take', ['bread'], [5554, 5566]] 5
+['close', ['bread'], [5566, 5839]] 5
+['put', ['bread'], [5645, 5655]] 5
+['take', ['bread'], [5838, 5856]] 5
+['open', ['fridge'], [5902, 5946]] 5
+['put', ['bread'], [5953, 5985]] 5
+['close', ['fridge'], [5985, 6012]] 5
+['take', ['kettle', 'skillet'], [6116, 6143]] 7
+['turn on', ['sink'], [6207, 6228]] 7
+['fill', ['kettle', 'sink', 'sink'], [6223, 6336]] 7
+['turn off', ['sink'], [6329, 6345]] 7
+['put', ['kettle', 'skillet'], [6389, 6422]] 7
+['turn on', ['skillet'], [6441, 6518]] 7
+['open', ['drawer'], [6606, 6680]] 9
+['take', ['bowl', 'drawer'], [6977, 7055]] 9
+['close', ['drawer'], [7125, 7233]] 9
+['put', ['bowl'], [7309, 7321]] 9
+['take', ['cereal_container', 'cereal_container'], [7327, 7394]] 9
+['open', ['cereal_container'], [7453, 7483]] 9
+['pour', ['cereal_container', 'cereal_container', 'bowl'], [7501, 7696]] 9
+['close', ['cereal_container'], [7730, 7756]] 9
+['put', ['cereal_container', 'cereal_container'], [7778, 7843]] 9
+['close', ['cereal_container'], [7850, 7890]] 9
+['open', ['fridge'], [7926, 7979]] 10
+['take', ['milk'], [7975, 8010]] 10
+['close', ['fridge'], [8009, 8047]] 10
+['open', ['milk'], [8054, 8091]] 10
+['put', ['milk'], [8091, 8105]] 10
+['pour', ['milk', 'milk', 'bowl'], [8135, 8184]] 10
+['put', ['milk'], [8195, 8223]] 10
+['take', ['milk'], [8225, 8237]] 10
+['close', ['milk'], [8237, 8281]] 10
+['take', ['honey'], [8281, 8306]] 11
+['open', ['honey'], [8306, 8407]] 11
+['squeeze', ['honey', 'honey', 'bowl'], [8423, 8517]] 11
+['close', ['honey'], [8521, 8546]] 11
+['put', ['honey'], [8549, 8568]] 11
+['take', ['milk'], [8571, 8595]] 10
+['open', ['fridge'], [8616, 8664]] 10
+['put', ['milk'], [8666, 8704]] 10
+['close', ['fridge'], [8712, 8782]] 10
+['take', ['mug'], [8898, 8929]] 7
+['put', ['mug'], [8996, 9023]] 7
+['turn off', ['skillet'], [9051, 9110]] 7
+['take', ['kettle', 'skillet'], [9110, 9135]] 7
+['pour', ['sink', 'kettle', 'mug'], [9136, 9372]] 7
+['put', ['kettle', 'skillet'], [9374, 9405]] 7
+['take', ['tea', 'tea'], [9452, 9488]] 6
+['open', ['tea'], [9507, 9574]] 6
+['take', ['tea', 'tea'], [9575, 9624]] 6
+['put', ['tea_wrapper', 'trash'], [9624, 9647]] 6
+['put', ['tea', 'mug'], [9742, 9764]] 6
+['move around', ['sink', 'mug', 'tea'], [9765, 10295]] 6
+['take', ['mug'], [10022, 10049]] 6
+['put', ['tea', 'trash'], [10318, 10345]] -1
+['open', ['drawer'], [10437, 10468]] 8
+['take', ['sugar_container', 'drawer'], [10469, 10486]] 8
+['pour', ['sugar', 'sugar_container', 'mug'], [10526, 10581]] 8
+['put', ['sugar_container', 'drawer'], [10604, 10643]] 8
+['close', ['drawer'], [10645, 10684]] 8
+['take', ['mug'], [10689, 10735]] -1
+['put', ['mug'], [10807, 10841]] -1

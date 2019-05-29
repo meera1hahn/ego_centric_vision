@@ -1,0 +1,103 @@
+['turn on', ['skillet'], [721, 770]] 1
+['open', ['fridge'], [930, 968]] 1
+['close', ['fridge'], [1036, 1057]] 1
+['read', ['container'], [1068, 1096]] -1
+['put', ['container'], [1131, 1138]] -1
+['open', ['container'], [1139, 1154]] -1
+['peel', ['paper'], [1169, 1206]] 2
+['peel', ['paper'], [1228, 1241]] 2
+['take', ['meat_patty'], [1242, 1272]] 2
+['close', ['container'], [1272, 1280]] 2
+['put', ['meat_patty', 'pan'], [1302, 1313]] 2
+['take', ['container'], [1360, 1373]] -1
+['open', ['fridge'], [1429, 1465]] -1
+['put', ['container'], [1458, 1495]] -1
+['close', ['fridge'], [1509, 1537]] -1
+['take', ['plate'], [1731, 1846]] -1
+['put', ['plate'], [1865, 1911]] -1
+['take', ['bread'], [1964, 1984]] 7
+['open', ['fridge'], [2070, 2099]] 9
+['take', ['lettuce'], [2106, 2164]] 9
+['close', ['fridge'], [2161, 2186]] 9
+['put', ['lettuce'], [2228, 2244]] 9
+['open', ['lettuce'], [2245, 2292]] 9
+['take', ['lettuce'], [2312, 2574]] 9
+['divide', ['lettuce'], [2635, 2675]] 9
+['divide', ['lettuce'], [2694, 2715]] 9
+['divide', ['lettuce'], [2758, 2783]] 9
+['put', ['lettuce', 'lettuce'], [2790, 2815]] 9
+['turn on', ['sink'], [2892, 2920]] -1
+['wash', ['lettuce', 'sink', 'sink'], [2913, 3053]] -1
+['wash', ['lettuce', 'sink', 'sink'], [3070, 3258]] -1
+['wash', ['lettuce', 'sink', 'sink'], [3263, 3484]] -1 
+['turn off', ['sink'], [3489, 3501]] -1
+['dry', ['lettuce'], [3504, 3537]] -1
+['put', ['lettuce', 'plate'], [3607, 3650]] 9
+['take', ['lettuce', 'plate'], [3651, 3673]] 9
+['divide', ['lettuce'], [3674, 3685]] 9
+['put', ['lettuce', 'plate'], [3702, 3707]] 9
+['open', ['fridge'], [3750, 3795]] 8
+['take', ['tomato'], [3798, 3910]] 8
+['close', ['fridge'], [3927, 3945]] 8
+['peel', ['sticker', 'tomato'], [3994, 4084]] 8
+['peel', ['lettuce', 'tomato'], [4159, 4206]] 8
+['put', ['lettuce', 'trash_can'], [4251, 4263]] -1
+['turn on', ['sink'], [4307, 4337]] -1
+['wash', ['tomato', 'sink', 'sink'], [4333, 4512]] -1
+['turn off', ['sink'], [4506, 4519]] -1
+['put', ['tomato', 'plate'], [4589, 4606]] 8
+['take', ['spatula'], [4636, 4665]] 3
+['move around', ['meat_patty', 'spatula', 'skillet'], [4681, 4810]] 3
+['flip', ['meat_patty', 'spatula'], [4822, 4858]] 3
+['move around', ['meat_patty', 'spatula', 'skillet'], [4868, 4969]] 3
+['put', ['spatula'], [4979, 4992]] 3
+['take', ['knife'], [5105, 5118]] 8
+['adjust', ['lettuce', 'plate'], [5178, 5194]] 8
+['cut', ['tomato', 'knife', 'plate'], [5240, 5616]] 8
+['take', ['lettuce', 'plate'], [5616, 5678]] 8
+['cut', ['lettuce', 'knife', 'plate'], [5701, 6285]] 8
+['put', ['knife', 'plate'], [6289, 6321]] 8
+['take', ['plate'], [6329, 6386]] -1
+['put', ['plate'], [6387, 6414]] -1
+['take', ['bun'], [6472, 6538]] 7
+['open', ['bun'], [6545, 6691]] 7
+['put', ['plastic'], [6695, 6723]] -1
+['take', ['bun', 'bun'], [6778, 6870]] 7
+['close', ['bun'], [6872, 6882]] 7
+['put', ['bun'], [6892, 6919]] 7
+['peel', ['bun'], [6947, 7082]] 7
+['put', ['bun', 'plate'], [7091, 7147]] 7
+['take', ['spatula'], [7187, 7212]] 3
+['move around', ['meat_patty', 'spatula', 'skillet'], [7215, 7732]] 3
+['flip', ['meat_patty', 'spatula'], [7736, 7764]] 3
+['move around', ['meat_patty', 'spatula', 'skillet'], [7795, 7882]] 3
+['put', ['spatula'], [7902, 7922]] 3
+['take', ['tomato', 'plate'], [8234, 8266]] 10
+['put', ['tomato', 'bun', 'plate'], [8274, 8300]] 10
+['take', ['tomato', 'plate'], [8317, 8362]] 10
+['put', ['tomato', 'bun', 'plate'], [8366, 8392]] 10
+['take', ['lettuce', 'plate'], [8438, 8468]] 10
+['put', ['lettuce', 'bun', 'plate'], [8475, 8505]] 10
+['take', ['lettuce', 'plate'], [8522, 8597]] 10
+['put', ['lettuce', 'bun', 'plate'], [8597, 8688]] 10
+['open', ['fridge'], [8745, 8774]] -1
+['take', ['salad_dressing'], [8791, 8839]] 11
+['turn off', ['skillet'], [8934, 8952]] 5
+['take', ['skillet'], [8952, 8984]] 6
+['take', ['spatula'], [9007, 9019]] 6
+['take', ['meat_patty', 'spatula', 'skillet'], [9035, 9103]] 6
+['transfer', ['meat_patty', 'skillet', 'bun'], [9102, 9183]] 6
+['pour', ['oil', 'skillet', 'sink'], [9255, 9293]] -1
+['put', ['skillet', 'spatula', 'sink'], [9292, 9336]] -1
+['take', ['salad_dressing'], [9392, 9416]] 11
+['open', ['salad_dressing'], [9415, 9450]] 11
+['pour', ['salad_dressing', 'meat_patty'], [9449, 9589]] 11
+['close', ['salad_dressing'], [9589, 9614]] 11
+['open', ['fridge'], [9657, 9703]] 11
+['take', ['ketchup_bottle'], [9741, 9750]] 11
+['open', ['ketchup_bottle'], [9844, 9897]] 11
+['pour', ['ketchup_bottle', 'meat_patty'], [9914, 10039]] 11
+['close', ['ketchup_bottle'], [10046, 10060]] 11
+['put', ['ketchup_bottle'], [10060, 10085]] 11
+['flip', ['meat_patty', 'bun'], [10139, 10176]] 12
+['compress', ['burger'], [10188, 10309]] 12

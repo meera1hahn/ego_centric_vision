@@ -1,0 +1,100 @@
+['take', ['plate'], [900, 980]] -1
+['put', ['plate'], [986, 1002]] -1
+['open', ['fridge'], [1059, 1105]] -1
+['open', ['fridge'], [1107, 1132]] -1
+['take', ['lettuce'], [1136, 1173]] 1
+['open', ['fridge_drawer'], [1201, 1216]] -1
+['take', ['tomato'], [1220, 1389]] 2
+['close', ['fridge_drawer'], [1399, 1414]] -1
+['close', ['fridge'], [1418, 1496]] -1
+['put', ['tomato'], [1541, 1558]] 2
+['take', ['lettuce', 'lettuce'], [1578, 1650]] 1
+['put', ['lettuce'], [1660, 1681]] 1
+['divide', ['lettuce'], [1801, 1822]] 1
+['divide', ['lettuce'], [1840, 1873]] 1
+['divide', ['lettuce'], [1884, 1912]] 1
+['put', ['lettuce', 'lettuce'], [1915, 1956]] 1
+['turn on', ['sink'], [2037, 2058]] 1
+['wash', ['lettuce', 'sink', 'sink'], [2058, 2400]] 1
+['turn off', ['sink'], [2426, 2440]] 1
+['dry', ['lettuce'], [2434, 2450]] 1
+['put', ['lettuce', 'plate'], [2545, 2572]] 1
+['take', ['knife'], [2593, 2618]] 1
+['cut', ['lettuce', 'knife', 'plate'], [2631, 3256]] 1
+['take', ['tomato'], [3316, 3333]] 2
+['turn on', ['sink'], [3408, 3431]] 2
+['wash', ['tomato', 'sink', 'sink'], [3430, 3535]] 2
+['turn off', ['sink'], [3539, 3549]] 2
+['cut', ['tomato', 'plate', 'counter'], [3626, 3869]] 2
+['take', ['plate'], [3888, 3921]] 2
+['put', ['plate'], [3916, 3928]] 2
+['put', ['tomato', 'plate'], [3928, 3952]] 2
+['open', ['fridge'], [4006, 4057]] -1
+['take', ['cucumber_container'], [4096, 4147]] 3
+['open', ['cucumber_container'], [4201, 4226]] 3
+['take', ['cucumber', 'cucumber_container'], [4222, 4341]] 3
+['put', ['cucumber_container'], [4340, 4365]] 3
+['close', ['fridge'], [4417, 4462]] -1
+['take', ['knife', 'plate'], [4510, 4524]] 3
+['cut', ['cucumber'], [4531, 4664]] 3
+['take', ['cucumber'], [4669, 4686]] 3
+['peel', ['cucumber', 'knife'], [4685, 5069]] 3
+['cut', ['cucumber', 'knife', 'plate'], [5086, 5690]] 3
+['put', ['cucumber', 'plate'], [5687, 5762]] 3
+['adjust', ['cucumber', 'plate'], [5761, 5801]] 3
+['cut', ['cucumber', 'knife'], [5811, 5883]] 3
+['put', ['knife', 'plate'], [5908, 5924]] 3
+['open', ['fridge'], [5946, 5976]] -1
+['take', ['onion'], [5993, 6078]] 4
+['close', ['fridge'], [6095, 6113]] -1
+['take', ['knife', 'plate'], [6166, 6187]] 4
+['peel', ['onion', 'knife'], [6204, 6831]] 4
+['turn on', ['sink'], [6920, 6937]] 4
+['wash', ['onion', 'sink', 'sink'], [6931, 7053]] 4
+['peel', ['onion'], [7054, 7163]] 4
+['wash', ['onion', 'sink', 'sink'], [7161, 7206]] 4
+['turn off', ['sink'], [7205, 7214]] 4
+['cut', ['onion', 'knife', 'plate'], [7309, 7631]] 4
+['put', ['onion', 'plate'], [7648, 7682]] 4
+['divide', ['onion', 'plate'], [7709, 8083]] 4
+['open', ['fridge'], [8142, 8187]] -1
+['take', ['salad_dressing'], [8212, 8265]] 6
+['close', ['fridge'], [8266, 8296]] -1
+['put', ['salad_dressing'], [8373, 8399]] 6
+['open', ['salad_dressing'], [8399, 8421]] 6
+['put', ['lid'], [8440, 8461]] 6
+['take', ['knife'], [8461, 8479]] 6
+['take', ['feta', 'knife'], [8503, 8540]] 6
+['take', ['feta'], [8566, 8603]] 6
+['put', ['knife', 'plate'], [8639, 8660]] 6
+['divide', ['feta', 'plate'], [8658, 8780]] 6
+['adjust', ['plate'], [8792, 8825]] -1
+['turn on', ['sink'], [8940, 8955]] -1
+['wash', ['sink', 'sink'], [8955, 9051]] -1
+['turn off', ['sink'], [9061, 9063]] -1
+['take', ['lid'], [9152, 9181]] 6
+['close', ['salad_dressing'], [9181, 9253]] 6
+['take', ['salad_dressing'], [9257, 9281]] 6
+['open', ['fridge'], [9314, 9329]] 6
+['put', ['salad_dressing'], [9329, 9369]] 6
+['close', ['fridge'], [9363, 9395]] 6
+['take', ['oil'], [9476, 9501]] 7
+['open', ['oil'], [9500, 9555]] 7
+['pour', ['oil', 'salad', 'plate'], [9552, 9615]] 7
+['close', ['oil'], [9623, 9679]] 7
+['put', ['oil'], [9678, 9710]] 7
+['open', ['fridge'], [9740, 9777]] -1
+['take', ['salad_dressing'], [9777, 9789]] 7
+['take', ['orange_juice'], [9802, 9849]] 7
+['close', ['fridge'], [9854, 9877]] -1
+['put', ['orange_juice'], [9918, 9939]] 7
+['shake', ['salad_dressing'], [9943, 9972]] 7
+['open', ['salad_dressing'], [9972, 10030]] 7
+['pour', ['salad_dressing', 'salad', 'plate'], [10042, 10104]] 7
+['close', ['salad_dressing'], [10116, 10173]] 7
+['put', ['salad_dressing'], [10171, 10196]] 7
+['take', ['orange_juice'], [10194, 10212]] 7
+['open', ['orange_juice'], [10229, 10251]] 7
+['pour', ['orange_juice', 'salad', 'plate'], [10254, 10303]] 7
+['close', ['orange_juice'], [10316, 10338]] 7
+['put', ['orange_juice'], [10352, 10374]] 7

@@ -1,0 +1,119 @@
+['read', ['recipe'], [826, 856]] -1
+['open', ['fridge'], [884, 935]] -1
+['take', ['lettuce'], [937, 969]] 1
+['close', ['fridge'], [984, 1028]] -1
+['put', ['lettuce'], [1032, 1051]] 1
+['transfer', ['lettuce', 'lettuce', 'bowl'], [1053, 1230]] 1
+['transfer', ['lettuce', 'lettuce', 'plate'], [1232, 1455]] 1
+['take', ['knife', 'plate'], [1454, 1467]] -1
+['cut', ['lettuce', 'knife'], [1469, 1607]] 1
+['transfer', ['lettuce', 'plate', 'bowl'], [1607, 1637]] 5
+['take', ['lettuce', 'bowl'], [1637, 1644]] 1
+['put', ['lettuce', 'plate'], [1644, 1655]] 1
+['cut', ['lettuce', 'knife'], [1657, 1673]] 1
+['transfer', ['lettuce', 'bowl'], [1673, 1720]] 5
+['take', ['lettuce'], [1720, 1737]] 5
+['put', ['lettuce', 'bowl'], [1737, 1751]] 5
+['take', ['lettuce'], [1758, 1778]] 1
+['open', ['fridge'], [1795, 1823]] -1
+['put', ['lettuce'], [1822, 1866]] 1
+['take', ['tomato_container'], [1866, 1889]] 2
+['close', ['fridge'], [1889, 1920]] -1
+['put', ['tomato_container'], [1934, 1950]] 2
+['open', ['tomato_container'], [1950, 1968]] 2
+['take', ['tomato', 'tomato_container'], [1970, 2003]] 2
+['put', ['tomato', 'plate'], [2005, 2021]] 2
+['take', ['knife', 'plate'], [2022, 2031]] 2
+['cut', ['tomato', 'knife'], [2032, 2094]] 2
+['cut', ['tomato', 'knife'], [2169, 2396]] 2
+['take', ['tomato', 'plate'], [2398, 2410]] 2
+['put', ['knife', 'plate'], [2409, 2424]] 2
+['transfer', ['tomato', 'plate', 'bowl'], [2535, 2708]] 5
+['put', ['tomato', 'tomato_container'], [2719, 2738]] 2
+['close', ['tomato_container'], [2740, 2754]] 2
+['take', ['tomato_container'], [2743, 2759]] 2
+['open', ['fridge'], [2773, 2796]] -1
+['put', ['tomato', 'tomato_container'], [2798, 2839]] 2
+['open', ['fridge'], [2840, 2865]] -1
+['open', ['fridge_drawer'], [2866, 2889]] -1
+['take', ['onion'], [2890, 2935]] 4
+['close', ['fridge_drawer'], [2935, 2959]] -1
+['close', ['fridge'], [2965, 3033]] -1
+['put', ['onion', 'plate'], [3042, 3063]] 4
+['take', ['knife', 'plate'], [3063, 3078]] 4
+['cut', ['onion', 'knife'], [3087, 3230]] 4
+['cut', ['onion', 'knife'], [3252, 3470]] 4
+['take', ['onion'], [3481, 3493]] 4
+['put', ['onion', 'plate'], [3492, 3503]] 4
+['cut', ['onion', 'knife'], [3507, 3519]] 4
+['take', ['onion', 'plate'], [3524, 3534]] 4
+['put', ['knife', 'plate'], [3528, 3545]] 4
+['put', ['onion', 'plate'], [3559, 3571]] 4
+['take', ['knife', 'plate'], [3567, 3581]] 4
+['cut', ['onion', 'knife'], [3596, 3637]] 4
+['take', ['onion', 'plate'], [3638, 3644]] 4
+['put', ['onion'], [3645, 3654]] 4
+['cut', ['onion', 'knife'], [3659, 3861]] 4
+['take', ['plate'], [3871, 3882]] 4
+['transfer', ['onion', 'plate', 'bowl', 'knife'], [3882, 4058]] 5
+['put', ['plate'], [4061, 4075]] 5
+['put', ['knife', 'plate'], [4074, 4088]] -1
+['read', ['recipe'], [4139, 4270]] -1
+['open', ['fridge'], [4307, 4335]] -1
+['take', ['cucumber_container'], [4336, 4466]] 3
+['take', ['cucumber', 'cucumber_container'], [4466, 4629]] 3
+['put', ['cucumber_container'], [4645, 4694]] 3
+['close', ['fridge'], [4703, 4749]] -1
+['put', ['cucumber', 'plate'], [4763, 4774]] 3
+['take', ['knife', 'plate'], [4770, 4782]] 3
+['cut', ['cucumber', 'knife'], [4789, 5307]] 3
+['transfer', ['cucumber', 'plate', 'bowl'], [5311, 5433]] 5
+['put', ['knife', 'plate'], [5500, 5510]] 5
+['open', ['fridge'], [5560, 5593]]  -1
+['take', ['salad_dressing'], [5621, 5640]] 8
+['open', ['salad_dressing'], [5650, 5720]] 8
+['pour', ['salad_dressing', 'salad_dressing', 'bowl'], [5724, 5819]] 8
+['close', ['salad_dressing'], [5841, 5910]] 8
+['put', ['salad_dressing'], [5933, 5954]] 8
+['close', ['fridge'], [5955, 5996]] -1
+['take', ['oil'], [6012, 6032]] 7
+['open', ['oil'], [6032, 6104]] 7
+['pour', ['oil', 'oil', 'bowl'], [6108, 6164]] 7
+['close', ['oil'], [6173, 6235]] 7
+['put', ['oil'], [6238, 6253]] 7
+['open', ['freezer'], [6302, 6335]] -1
+['take', ['salad_dressing'], [6335, 6353]] 6
+['close', ['freezer'], [6352, 6373]] -1
+['open', ['salad_dressing'], [6397, 6419]] 6
+['put', ['salad_dressing'], [6419, 6433]] 6
+['take', ['knife', 'plate'], [6432, 6451]] -1
+['transfer', ['feta', 'salad_dressing', 'bowl', 'knife'], [6450, 6741]] 6
+['put', ['knife', 'plate'], [6763, 6774]] -1
+['take', ['salad_dressing'], [6774, 6789]] 6
+['close', ['salad_dressing'], [6792, 6829]] 6
+['open', ['freezer'], [6863, 6891]] -1
+['put', ['salad_dressing'], [6890, 6918]] 6
+['close', ['freezer'], [6918, 6936]] -1
+['open', ['fridge'], [6935, 6955]] -1
+['take', ['orange_juice'], [6997, 7021]] 7
+['close', ['fridge'], [7034, 7063]] -1
+['open', ['orange_juice'], [7067, 7090]] 7
+['pour', ['orange_juice', 'orange_juice', 'bowl'], [7101, 7130]] 7
+['close', ['orange_juice'], [7133, 7162]] 7
+['open', ['fridge'], [7179, 7203]] -1
+['put', ['orange_juice'], [7202, 7224]] 7
+['take', ['salad_dressing'], [7317, 7342]] 7
+['close', ['fridge'], [7345, 7361]] -1
+['open', ['salad_dressing'], [7360, 7416]] 7
+['pour', ['salad_dressing', 'salad_dressing', 'bowl'], [7424, 7442]] 7
+['pour', ['salad_dressing', 'salad_dressing', 'bowl'], [7450, 7469]] 7
+['close', ['salad_dressing'], [7481, 7567]] 7
+['open', ['fridge'], [7571, 7599]] -1
+['put', ['salad_dressing'], [7599, 7614]] 7
+['close', ['fridge'], [7613, 7638]] -1
+['take', ['bowl'], [7648, 7666]] -1
+['put', ['bowl'], [7715, 7740]] -1
+['turn on', ['sink'], [7778, 7800]] -1
+['wash', ['sink', 'sink'], [7793, 7862]] -1
+['turn off', ['sink'], [7862, 7887]]  -1
+['read', ['recipe'], [7896, 7944]] -1

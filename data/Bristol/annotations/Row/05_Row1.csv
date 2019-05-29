@@ -1,0 +1,9 @@
+1,153,260,move.v.2,rest
+1,414,523,move.v.2,seat
+2,838,931,touch.v.1,weight pin
+2,938,999,rotate.v.1,weight setting
+3,1153,1203,row.v.1,rowing machine
+2,1750,1811,rotate.v.1,weight setting
+3,1900,2233,row.v.1,rowing machine
+2,2297,2437,touch.v.1,weight pin
+1,2491,2928,pull.v.1,rowing machine
